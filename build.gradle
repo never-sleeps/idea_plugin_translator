@@ -1,0 +1,20 @@
+plugins {
+    id 'org.jetbrains.intellij' version '0.6.5'
+}
+
+group 'me.develop.idea.plugin'
+version '1.0.0'
+
+// See https://github.com/JetBrains/gradle-intellij-plugin/
+intellij {
+    type 'IU'
+    version '2020.1'
+}
+patchPluginXml {
+    changeNotes """
+      Initial version of the plugin"""
+}
+
+repositories {
+    mavenCentral()
+}

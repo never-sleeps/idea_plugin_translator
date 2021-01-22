@@ -1,0 +1,26 @@
+<idea-plugin>
+    <id>me.develop.idea.plugin.translator_plugin</id>
+    <name>Translator</name>
+    <vendor email="iakonyakina@gmail.com" url="https://github.com/never-sleeps">developer</vendor>
+
+    <description><![CDATA[
+        Plugin for intellij idea to translate text from one language to another
+    ]]></description>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action id="TranslateAction" class="TranslateAction" text="Translate Action"
+                description="Translate the selection">
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl BACK_SLASH" second-keystroke="ctrl BACK_SLASH"/>
+        </action>
+    </actions>
+</idea-plugin>
