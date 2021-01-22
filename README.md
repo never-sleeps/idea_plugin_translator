@@ -1,4 +1,4 @@
-### Plugin to translate text in Intellij IDEA
+### Plugin for text translation in Intellij IDEA
 
 Select the text in your code and double-click the `⌘ + BACK_SLASH`. It will open https://translate.google.com with your text.
 
