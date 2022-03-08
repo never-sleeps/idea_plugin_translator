@@ -1,18 +1,21 @@
 plugins {
-    id 'org.jetbrains.intellij' version '0.6.5'
+    id 'org.jetbrains.intellij' version '1.4.0'
+    id 'java'
 }
 
+sourceCompatibility = JavaVersion.VERSION_11
+targetCompatibility = JavaVersion.VERSION_11
+
 group 'me.develop.idea.plugin'
-version '1.0.0'
+version '1.0.1'
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    type 'IU'
-    version '2020.1'
+    version = '2021.3.2'
+    type = 'CL'
 }
+
 patchPluginXml {
-    changeNotes """
-      Initial version of the plugin"""
 }
 
 repositories {

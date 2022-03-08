@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>me.develop.idea.plugin.translator_plugin</id>
     <name>Translator</name>
-    <vendor email="iakonyakina@gmail.com" url="https://github.com/never-sleeps">developer</vendor>
+    <vendor email="iakonyakina@gmail.com" url="https://github.com/never-sleeps">never-sleeps</vendor>
 
     <description><![CDATA[
         Plugin for intellij idea to translate text from one language to another
